@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from xgboost import XGBClassifier
 from sklearn.metrics import f1_score, roc_curve, auc
-
+ 
 '''
 General Instructions:
 
@@ -320,7 +320,7 @@ def train_xgboost_with_bootstrap(X_train, y_train, X_valid, y_valid, alpha_vals,
             best_alpha = alpha
 
     return best_alpha, best_f1
-
+ 
 '''
 Initialize the following variable with the best model you have found. This model will be used in testing 
 in our pre-built environment.
